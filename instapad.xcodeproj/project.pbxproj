@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50FB20DDB314250ADF212ED7 /* Pods_instapad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA433CE11B6C17ECFD45B8D /* Pods_instapad.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C60746391B53EB7300570F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60746381B53EB7300570F30 /* AppDelegate.swift */; };
+		C607463E1B53EB7300570F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C607463C1B53EB7300570F30 /* Main.storyboard */; };
+		C60746401B53EB7300570F30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C607463F1B53EB7300570F30 /* Images.xcassets */; };
+		C60746431B53EB7300570F30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60746411B53EB7300570F30 /* LaunchScreen.xib */; };
+		C607464F1B53EB7300570F30 /* instapadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C607464E1B53EB7300570F30 /* instapadTests.swift */; };
+		C607465D1B53F4A800570F30 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C607465C1B53F4A800570F30 /* IndexViewController.swift */; };
+		C6F017EB1B5504BC00D4AB7B /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F017EA1B5504BC00D4AB7B /* FeedTableViewCell.swift */; };
+		C6F017EF1B5507BD00D4AB7B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F017EE1B5507BD00D4AB7B /* FeedViewController.swift */; };
+		C6F017F31B55090D00D4AB7B /* Gram.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F017F21B55090D00D4AB7B /* Gram.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C60746491B53EB7300570F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C607462B1B53EB7300570F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60746321B53EB7300570F30;
+			remoteInfo = instapad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29F518DF10824D8E67A9B9EB /* Pods-instapad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instapad.release.xcconfig"; path = "Pods/Target Support Files/Pods-instapad/Pods-instapad.release.xcconfig"; sourceTree = "<group>"; };
+		8475EBFBF14463D8F96B49D7 /* Pods-instapad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instapad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instapad/Pods-instapad.debug.xcconfig"; sourceTree = "<group>"; };
+		9BA433CE11B6C17ECFD45B8D /* Pods_instapad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instapad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60746331B53EB7300570F30 /* instapad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instapad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60746371B53EB7300570F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60746381B53EB7300570F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C607463D1B53EB7300570F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C607463F1B53EB7300570F30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C60746421B53EB7300570F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C60746481B53EB7300570F30 /* instapadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instapadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C607464D1B53EB7300570F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C607464E1B53EB7300570F30 /* instapadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instapadTests.swift; sourceTree = "<group>"; };
+		C607465C1B53F4A800570F30 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		C6F017EA1B5504BC00D4AB7B /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		C6F017EE1B5507BD00D4AB7B /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C6F017F21B55090D00D4AB7B /* Gram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gram.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60746301B53EB7300570F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FB20DDB314250ADF212ED7 /* Pods_instapad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60746451B53EB7300570F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63FFADA0FCF15E59C6553F0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BA433CE11B6C17ECFD45B8D /* Pods_instapad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C607462A1B53EB7300570F30 = {
+			isa = PBXGroup;
+			children = (
+				C60746351B53EB7300570F30 /* instapad */,
+				C607464B1B53EB7300570F30 /* instapadTests */,
+				C60746341B53EB7300570F30 /* Products */,
+				E07E3AE840DA5AF1BDA24D1F /* Pods */,
+				63FFADA0FCF15E59C6553F0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C60746341B53EB7300570F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60746331B53EB7300570F30 /* instapad.app */,
+				C60746481B53EB7300570F30 /* instapadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60746351B53EB7300570F30 /* instapad */ = {
+			isa = PBXGroup;
+			children = (
+				C60746381B53EB7300570F30 /* AppDelegate.swift */,
+				C607465C1B53F4A800570F30 /* IndexViewController.swift */,
+				C6F017EE1B5507BD00D4AB7B /* FeedViewController.swift */,
+				C6F017EA1B5504BC00D4AB7B /* FeedTableViewCell.swift */,
+				C6F017F21B55090D00D4AB7B /* Gram.swift */,
+				C607463C1B53EB7300570F30 /* Main.storyboard */,
+				C607463F1B53EB7300570F30 /* Images.xcassets */,
+				C60746411B53EB7300570F30 /* LaunchScreen.xib */,
+				C60746361B53EB7300570F30 /* Supporting Files */,
+			);
+			path = instapad;
+			sourceTree = "<group>";
+		};
+		C60746361B53EB7300570F30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60746371B53EB7300570F30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C607464B1B53EB7300570F30 /* instapadTests */ = {
+			isa = PBXGroup;
+			children = (
+				C607464E1B53EB7300570F30 /* instapadTests.swift */,
+				C607464C1B53EB7300570F30 /* Supporting Files */,
+			);
+			path = instapadTests;
+			sourceTree = "<group>";
+		};
+		C607464C1B53EB7300570F30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C607464D1B53EB7300570F30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E07E3AE840DA5AF1BDA24D1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8475EBFBF14463D8F96B49D7 /* Pods-instapad.debug.xcconfig */,
+				29F518DF10824D8E67A9B9EB /* Pods-instapad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60746321B53EB7300570F30 /* instapad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60746521B53EB7300570F30 /* Build configuration list for PBXNativeTarget "instapad" */;
+			buildPhases = (
+				C520A513E0B4E60F9058A7FD /* Check Pods Manifest.lock */,
+				C607462F1B53EB7300570F30 /* Sources */,
+				C60746301B53EB7300570F30 /* Frameworks */,
+				C60746311B53EB7300570F30 /* Resources */,
+				DB9F4719D4E08AB58A716B3E /* Embed Pods Frameworks */,
+				B93B3C59B6DA1FCD8A83617E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instapad;
+			productName = instapad;
+			productReference = C60746331B53EB7300570F30 /* instapad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C60746471B53EB7300570F30 /* instapadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60746551B53EB7300570F30 /* Build configuration list for PBXNativeTarget "instapadTests" */;
+			buildPhases = (
+				C60746441B53EB7300570F30 /* Sources */,
+				C60746451B53EB7300570F30 /* Frameworks */,
+				C60746461B53EB7300570F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C607464A1B53EB7300570F30 /* PBXTargetDependency */,
+			);
+			name = instapadTests;
+			productName = instapadTests;
+			productReference = C60746481B53EB7300570F30 /* instapadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C607462B1B53EB7300570F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SourcePad;
+				TargetAttributes = {
+					C60746321B53EB7300570F30 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C60746471B53EB7300570F30 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C60746321B53EB7300570F30;
+					};
+				};
+			};
+			buildConfigurationList = C607462E1B53EB7300570F30 /* Build configuration list for PBXProject "instapad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C607462A1B53EB7300570F30;
+			productRefGroup = C60746341B53EB7300570F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60746321B53EB7300570F30 /* instapad */,
+				C60746471B53EB7300570F30 /* instapadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60746311B53EB7300570F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C607463E1B53EB7300570F30 /* Main.storyboard in Resources */,
+				C60746431B53EB7300570F30 /* LaunchScreen.xib in Resources */,
+				C60746401B53EB7300570F30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60746461B53EB7300570F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B93B3C59B6DA1FCD8A83617E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instapad/Pods-instapad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C520A513E0B4E60F9058A7FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9F4719D4E08AB58A716B3E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instapad/Pods-instapad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C607462F1B53EB7300570F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60746391B53EB7300570F30 /* AppDelegate.swift in Sources */,
+				C6F017EF1B5507BD00D4AB7B /* FeedViewController.swift in Sources */,
+				C607465D1B53F4A800570F30 /* IndexViewController.swift in Sources */,
+				C6F017EB1B5504BC00D4AB7B /* FeedTableViewCell.swift in Sources */,
+				C6F017F31B55090D00D4AB7B /* Gram.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60746441B53EB7300570F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C607464F1B53EB7300570F30 /* instapadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C607464A1B53EB7300570F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60746321B53EB7300570F30 /* instapad */;
+			targetProxy = C60746491B53EB7300570F30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C607463C1B53EB7300570F30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C607463D1B53EB7300570F30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C60746411B53EB7300570F30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60746421B53EB7300570F30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C60746501B53EB7300570F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C60746511B53EB7300570F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C60746531B53EB7300570F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8475EBFBF14463D8F96B49D7 /* Pods-instapad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = instapad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C60746541B53EB7300570F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F518DF10824D8E67A9B9EB /* Pods-instapad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = instapad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C60746561B53EB7300570F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = instapadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instapad.app/instapad";
+			};
+			name = Debug;
+		};
+		C60746571B53EB7300570F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = instapadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instapad.app/instapad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C607462E1B53EB7300570F30 /* Build configuration list for PBXProject "instapad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60746501B53EB7300570F30 /* Debug */,
+				C60746511B53EB7300570F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60746521B53EB7300570F30 /* Build configuration list for PBXNativeTarget "instapad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60746531B53EB7300570F30 /* Debug */,
+				C60746541B53EB7300570F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60746551B53EB7300570F30 /* Build configuration list for PBXNativeTarget "instapadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60746561B53EB7300570F30 /* Debug */,
+				C60746571B53EB7300570F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C607462B1B53EB7300570F30 /* Project object */;
+}
